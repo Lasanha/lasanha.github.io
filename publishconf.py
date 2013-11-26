@@ -22,4 +22,5 @@ DELETE_OUTPUT_DIRECTORY = True
 DISQUS_SITENAME = "lasanha"
 GOOGLE_ANALYTICS = ""
 
-FILES_TO_COPY = (('CNAME', 'CNAME'),)
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
